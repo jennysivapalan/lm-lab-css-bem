@@ -1,5 +1,6 @@
 img {
   max-width: 200px;
+  align-self: center;
 }
 
 .card {
@@ -9,9 +10,8 @@ img {
   vertical-align: top;
   margin: 10px 10px 10px 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  min-width: 100px;
+  min-width: 225px;
   min-height: 415px;
-
   height: 60%;
 }
 
