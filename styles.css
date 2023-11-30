@@ -13,23 +13,25 @@ body {
 }
 
 .card {
+  --light: rgb(242, 246, 130);
+  --dark: rgb(105, 106, 104);
   display: inline-flex;
   flex-direction: column;
   padding: 1em;
-  vertical-align: top;
   margin: 10px 10px 10px 10px;
   min-width: 225px;
   min-height: 415px;
+  border: 1px solid;
 }
 
 .light {
-  border: 1px solid #ccc;
-  background-color: lightyellow;
+  border-color: var(--dark);
+  background-color: var(--light);
 }
 
 .dark {
-  border: 1px solid black;
-  background-color: grey;
+  border-color: var(--light);
+  background-color: var(--dark);
 }
 
 .card__img {
