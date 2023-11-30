@@ -38,3 +38,13 @@ body {
   max-width: 200px;
   align-self: center;
 }
+
+.container:hover .card {
+  filter: blur(20px);
+  opacity: 0.5;
+}
+
+.container .card:hover {
+  filter: blur(0px);
+  opacity: 1;
+}
