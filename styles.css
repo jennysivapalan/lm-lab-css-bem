@@ -1,7 +1,26 @@
-/* You can delete / re-write this img class  */
-
 img {
-    max-width: 200px;
+  max-width: 200px;
 }
 
-/* Happy coding! */
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 1em;
+  vertical-align: top;
+  margin: 10px 10px 10px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  min-width: 100px;
+  min-height: 415px;
+
+  height: 60%;
+}
+
+.light {
+  border: 1px solid #ccc;
+  background-color: lightyellow;
+}
+
+.dark {
+  border: 1px solid black;
+  background-color: grey;
+}
