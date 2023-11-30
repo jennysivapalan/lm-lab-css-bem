@@ -48,3 +48,13 @@ body {
   filter: blur(0px);
   opacity: 1;
 }
+
+.card__btn {
+  background-color: blueviolet;
+  border: 1px solid white;
+  color: white;
+  height: 40px;
+  min-width: 50px;
+  padding: 10px;
+  margin: 5px;
+}
