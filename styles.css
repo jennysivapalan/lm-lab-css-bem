@@ -58,3 +58,7 @@ body {
   padding: 10px;
   margin: 5px;
 }
+
+.card__btn--dark {
+  background-color: #ee4b2b;
+}
